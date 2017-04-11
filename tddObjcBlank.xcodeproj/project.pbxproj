@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DFDE9D2E74B4A8417A041418 /* Pods_tddObjcBlankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC57764B10A2FA943F86EBC2 /* Pods_tddObjcBlankTests.framework */; };
+		F40D1AB81E9D71B2009847D3 /* NSArray+SwuTaxCalculating.m in Sources */ = {isa = PBXBuildFile; fileRef = F40D1AB51E9D71B2009847D3 /* NSArray+SwuTaxCalculating.m */; };
+		F40D1AB91E9D71B2009847D3 /* SwuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F40D1AB71E9D71B2009847D3 /* SwuItem.m */; };
+		F40D1ABD1E9D71B9009847D3 /* FINISHED_ItemSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F40D1ABB1E9D71B9009847D3 /* FINISHED_ItemSpec.mm */; };
+		F40D1ABE1E9D71B9009847D3 /* FINISHED_NSArray_TaxCalculatingSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F40D1ABC1E9D71B9009847D3 /* FINISHED_NSArray_TaxCalculatingSpec.mm */; };
 		F4689CAF1E9D516C00A35D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4689CAE1E9D516C00A35D5E /* main.m */; };
 		F4689CB21E9D516C00A35D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4689CB11E9D516C00A35D5E /* AppDelegate.m */; };
 		F4689CB51E9D516C00A35D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4689CB41E9D516C00A35D5E /* ViewController.m */; };
 		F4689CB81E9D516C00A35D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4689CB61E9D516C00A35D5E /* Main.storyboard */; };
 		F4689CBA1E9D516C00A35D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4689CB91E9D516C00A35D5E /* Assets.xcassets */; };
 		F4689CBD1E9D516C00A35D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4689CBB1E9D516C00A35D5E /* LaunchScreen.storyboard */; };
-		F4689CC81E9D516C00A35D5E /* tddObjcBlankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4689CC71E9D516C00A35D5E /* tddObjcBlankTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,12 @@
 /* Begin PBXFileReference section */
 		9586E17492C13CFCD0B343CC /* Pods-tddObjcBlankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tddObjcBlankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tddObjcBlankTests/Pods-tddObjcBlankTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC57764B10A2FA943F86EBC2 /* Pods_tddObjcBlankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tddObjcBlankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40D1AB41E9D71B2009847D3 /* NSArray+SwuTaxCalculating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SwuTaxCalculating.h"; sourceTree = "<group>"; };
+		F40D1AB51E9D71B2009847D3 /* NSArray+SwuTaxCalculating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SwuTaxCalculating.m"; sourceTree = "<group>"; };
+		F40D1AB61E9D71B2009847D3 /* SwuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwuItem.h; sourceTree = "<group>"; };
+		F40D1AB71E9D71B2009847D3 /* SwuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwuItem.m; sourceTree = "<group>"; };
+		F40D1ABB1E9D71B9009847D3 /* FINISHED_ItemSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FINISHED_ItemSpec.mm; sourceTree = "<group>"; };
+		F40D1ABC1E9D71B9009847D3 /* FINISHED_NSArray_TaxCalculatingSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FINISHED_NSArray_TaxCalculatingSpec.mm; sourceTree = "<group>"; };
 		F4689CAA1E9D516C00A35D5E /* tddObjcBlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tddObjcBlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4689CAE1E9D516C00A35D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4689CB01E9D516C00A35D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,7 +50,6 @@
 		F4689CBC1E9D516C00A35D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4689CBE1E9D516C00A35D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4689CC31E9D516C00A35D5E /* tddObjcBlankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tddObjcBlankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4689CC71E9D516C00A35D5E /* tddObjcBlankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tddObjcBlankTests.m; sourceTree = "<group>"; };
 		F4689CC91E9D516C00A35D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7FFB31396D953C1799BA403 /* Pods-tddObjcBlankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tddObjcBlankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tddObjcBlankTests/Pods-tddObjcBlankTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +90,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F40D1AAA1E9D703F009847D3 /* tax */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tax;
+			sourceTree = "<group>";
+		};
+		F40D1AB01E9D7097009847D3 /* tax */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tax;
+			sourceTree = "<group>";
+		};
+		F40D1AB31E9D71B2009847D3 /* tax_swu */ = {
+			isa = PBXGroup;
+			children = (
+				F40D1AB41E9D71B2009847D3 /* NSArray+SwuTaxCalculating.h */,
+				F40D1AB51E9D71B2009847D3 /* NSArray+SwuTaxCalculating.m */,
+				F40D1AB61E9D71B2009847D3 /* SwuItem.h */,
+				F40D1AB71E9D71B2009847D3 /* SwuItem.m */,
+			);
+			path = tax_swu;
+			sourceTree = "<group>";
+		};
+		F40D1ABA1E9D71B9009847D3 /* tax_swu */ = {
+			isa = PBXGroup;
+			children = (
+				F40D1ABB1E9D71B9009847D3 /* FINISHED_ItemSpec.mm */,
+				F40D1ABC1E9D71B9009847D3 /* FINISHED_NSArray_TaxCalculatingSpec.mm */,
+			);
+			path = tax_swu;
+			sourceTree = "<group>";
+		};
 		F4689CA11E9D516C00A35D5E = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +149,15 @@
 			children = (
 				F4689CB01E9D516C00A35D5E /* AppDelegate.h */,
 				F4689CB11E9D516C00A35D5E /* AppDelegate.m */,
+				F4689CB91E9D516C00A35D5E /* Assets.xcassets */,
+				F4689CBE1E9D516C00A35D5E /* Info.plist */,
+				F4689CBB1E9D516C00A35D5E /* LaunchScreen.storyboard */,
+				F4689CB61E9D516C00A35D5E /* Main.storyboard */,
+				F4689CAD1E9D516C00A35D5E /* Supporting Files */,
+				F40D1AAA1E9D703F009847D3 /* tax */,
+				F40D1AB31E9D71B2009847D3 /* tax_swu */,
 				F4689CB31E9D516C00A35D5E /* ViewController.h */,
 				F4689CB41E9D516C00A35D5E /* ViewController.m */,
-				F4689CB61E9D516C00A35D5E /* Main.storyboard */,
-				F4689CB91E9D516C00A35D5E /* Assets.xcassets */,
-				F4689CBB1E9D516C00A35D5E /* LaunchScreen.storyboard */,
-				F4689CBE1E9D516C00A35D5E /* Info.plist */,
-				F4689CAD1E9D516C00A35D5E /* Supporting Files */,
 			);
 			path = tddObjcBlank;
 			sourceTree = "<group>";
@@ -129,8 +173,9 @@
 		F4689CC61E9D516C00A35D5E /* tddObjcBlankTests */ = {
 			isa = PBXGroup;
 			children = (
-				F4689CC71E9D516C00A35D5E /* tddObjcBlankTests.m */,
 				F4689CC91E9D516C00A35D5E /* Info.plist */,
+				F40D1AB01E9D7097009847D3 /* tax */,
+				F40D1ABA1E9D71B9009847D3 /* tax_swu */,
 			);
 			path = tddObjcBlankTests;
 			sourceTree = "<group>";
@@ -187,7 +232,7 @@
 				TargetAttributes = {
 					F4689CA91E9D516C00A35D5E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = YL7Q499FV6;
+						DevelopmentTeam = 5B283G7QPP;
 						ProvisioningStyle = Automatic;
 					};
 					F4689CC21E9D516C00A35D5E = {
@@ -290,7 +335,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40D1AB81E9D71B2009847D3 /* NSArray+SwuTaxCalculating.m in Sources */,
 				F4689CB51E9D516C00A35D5E /* ViewController.m in Sources */,
+				F40D1AB91E9D71B2009847D3 /* SwuItem.m in Sources */,
 				F4689CB21E9D516C00A35D5E /* AppDelegate.m in Sources */,
 				F4689CAF1E9D516C00A35D5E /* main.m in Sources */,
 			);
@@ -300,7 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4689CC81E9D516C00A35D5E /* tddObjcBlankTests.m in Sources */,
+				F40D1ABD1E9D71B9009847D3 /* FINISHED_ItemSpec.mm in Sources */,
+				F40D1ABE1E9D71B9009847D3 /* FINISHED_NSArray_TaxCalculatingSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YL7Q499FV6;
+				DEVELOPMENT_TEAM = 5B283G7QPP;
 				INFOPLIST_FILE = tddObjcBlank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swu.tddObjcBlank;
@@ -440,7 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YL7Q499FV6;
+				DEVELOPMENT_TEAM = 5B283G7QPP;
 				INFOPLIST_FILE = tddObjcBlank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swu.tddObjcBlank;
@@ -495,6 +543,7 @@
 				F4689CCE1E9D516C00A35D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4689CCF1E9D516C00A35D5E /* Build configuration list for PBXNativeTarget "tddObjcBlankTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +552,7 @@
 				F4689CD11E9D516C00A35D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

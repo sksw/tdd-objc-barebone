@@ -1,21 +1,8 @@
 PODS:
   - Cedar (1.0)
-  - PivotalCoreKit/UIKit/SpecHelper (0.3.2):
-    - PivotalCoreKit/UIKit/SpecHelper/Extensions (= 0.3.2)
-    - PivotalCoreKit/UIKit/SpecHelper/Stubs (= 0.3.2)
-    - PivotalCoreKit/UIKit/SpecHelper/Support (= 0.3.2)
-  - PivotalCoreKit/UIKit/SpecHelper/Extensions (0.3.2):
-    - PivotalCoreKit/UIKit/SpecHelper/Support
-  - PivotalCoreKit/UIKit/SpecHelper/Stubs (0.3.2):
-    - PivotalCoreKit/UIKit/SpecHelper/Stubs/Stubs-noarc (= 0.3.2)
-    - PivotalCoreKit/UIKit/SpecHelper/Support
-  - PivotalCoreKit/UIKit/SpecHelper/Stubs/Stubs-noarc (0.3.2):
-    - PivotalCoreKit/UIKit/SpecHelper/Support
-  - PivotalCoreKit/UIKit/SpecHelper/Support (0.3.2)
 
 DEPENDENCIES:
   - Cedar (from `https://github.com/pivotal/cedar.git`)
-  - PivotalCoreKit/UIKit/SpecHelper
 
 EXTERNAL SOURCES:
   Cedar:
@@ -28,8 +15,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Cedar: a641e5ed0353bd9d45782ce365d0822b7342cce3
-  PivotalCoreKit: 6a850f72593da33bedd9b53fb03ac68b37c47e72
 
-PODFILE CHECKSUM: a1cceaa837b0efe2100dabbdc975aa1b91935b62
+PODFILE CHECKSUM: 32ae930d700c562887205ad42ae99a3c63dec01c
 
 COCOAPODS: 1.1.1
