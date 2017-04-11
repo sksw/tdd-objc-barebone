@@ -1,0 +1,35 @@
+PODS:
+  - Cedar (1.0)
+  - PivotalCoreKit/UIKit/SpecHelper (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Extensions (= 0.3.2)
+    - PivotalCoreKit/UIKit/SpecHelper/Stubs (= 0.3.2)
+    - PivotalCoreKit/UIKit/SpecHelper/Support (= 0.3.2)
+  - PivotalCoreKit/UIKit/SpecHelper/Extensions (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Support
+  - PivotalCoreKit/UIKit/SpecHelper/Stubs (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Stubs/Stubs-noarc (= 0.3.2)
+    - PivotalCoreKit/UIKit/SpecHelper/Support
+  - PivotalCoreKit/UIKit/SpecHelper/Stubs/Stubs-noarc (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Support
+  - PivotalCoreKit/UIKit/SpecHelper/Support (0.3.2)
+
+DEPENDENCIES:
+  - Cedar (from `https://github.com/pivotal/cedar.git`)
+  - PivotalCoreKit/UIKit/SpecHelper
+
+EXTERNAL SOURCES:
+  Cedar:
+    :git: https://github.com/pivotal/cedar.git
+
+CHECKOUT OPTIONS:
+  Cedar:
+    :commit: 0c2c76af7a03d9112efbbe85429e52cdb6e72232
+    :git: https://github.com/pivotal/cedar.git
+
+SPEC CHECKSUMS:
+  Cedar: a641e5ed0353bd9d45782ce365d0822b7342cce3
+  PivotalCoreKit: 6a850f72593da33bedd9b53fb03ac68b37c47e72
+
+PODFILE CHECKSUM: a1cceaa837b0efe2100dabbdc975aa1b91935b62
+
+COCOAPODS: 1.1.1
