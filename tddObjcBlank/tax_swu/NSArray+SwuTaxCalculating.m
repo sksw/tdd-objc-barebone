@@ -7,6 +7,7 @@
 #import "NSArray+SwuTaxCalculating.h"
 #import "SwuItem.h"
 
+
 @implementation NSArray (SwuTaxCalculating)
 
 - (float)swu_totalTax {

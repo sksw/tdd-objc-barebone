@@ -18,6 +18,8 @@
 		F4689CB81E9D516C00A35D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4689CB61E9D516C00A35D5E /* Main.storyboard */; };
 		F4689CBA1E9D516C00A35D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4689CB91E9D516C00A35D5E /* Assets.xcassets */; };
 		F4689CBD1E9D516C00A35D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4689CBB1E9D516C00A35D5E /* LaunchScreen.storyboard */; };
+		F4B433CB1E9E75780008754F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B433CA1E9E75780008754F /* Item.m */; };
+		F4B433CD1E9E762C0008754F /* ItemSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4B433CC1E9E762C0008754F /* ItemSpec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		F4689CBE1E9D516C00A35D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4689CC31E9D516C00A35D5E /* tddObjcBlankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tddObjcBlankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4689CC91E9D516C00A35D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B433C91E9E75780008754F /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		F4B433CA1E9E75780008754F /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		F4B433CC1E9E762C0008754F /* ItemSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ItemSpec.mm; sourceTree = "<group>"; };
 		F7FFB31396D953C1799BA403 /* Pods-tddObjcBlankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tddObjcBlankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tddObjcBlankTests/Pods-tddObjcBlankTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +98,8 @@
 		F40D1AAA1E9D703F009847D3 /* tax */ = {
 			isa = PBXGroup;
 			children = (
+				F4B433C91E9E75780008754F /* Item.h */,
+				F4B433CA1E9E75780008754F /* Item.m */,
 			);
 			path = tax;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 		F40D1AB01E9D7097009847D3 /* tax */ = {
 			isa = PBXGroup;
 			children = (
+				F4B433CC1E9E762C0008754F /* ItemSpec.mm */,
 			);
 			path = tax;
 			sourceTree = "<group>";
@@ -335,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B433CB1E9E75780008754F /* Item.m in Sources */,
 				F40D1AB81E9D71B2009847D3 /* NSArray+SwuTaxCalculating.m in Sources */,
 				F4689CB51E9D516C00A35D5E /* ViewController.m in Sources */,
 				F40D1AB91E9D71B2009847D3 /* SwuItem.m in Sources */,
@@ -349,6 +358,7 @@
 			files = (
 				F40D1ABD1E9D71B9009847D3 /* FINISHED_ItemSpec.mm in Sources */,
 				F40D1ABE1E9D71B9009847D3 /* FINISHED_NSArray_TaxCalculatingSpec.mm in Sources */,
+				F4B433CD1E9E762C0008754F /* ItemSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

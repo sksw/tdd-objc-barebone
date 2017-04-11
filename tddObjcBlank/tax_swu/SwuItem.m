@@ -8,11 +8,12 @@
 
 #import "SwuItem.h"
 
+
 @interface SwuItem ()
 @property (nonatomic, readwrite) SwuItemType type;
 @property (nonatomic, readwrite) float price;
-
 @end
+
 
 @implementation SwuItem
 
