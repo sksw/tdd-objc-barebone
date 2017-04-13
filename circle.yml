@@ -1,0 +1,12 @@
+machine:
+  xcode:
+    version: "8.2.1"
+
+dependencies:
+  override:
+    - gem install xcpretty
+    - pod install
+
+test:
+  override:
+    - ./scripts/run_tests.sh tddObjcBlank

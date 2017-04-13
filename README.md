@@ -1,5 +1,9 @@
 # tdd-objc-barebone
 
+[![Travis](https://travis-ci.org/sksw/tdd-objc-barebone.svg?branch=ci)](https://travis-ci.org/sksw/tdd-objc-barebone)
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=58efe5b662a5f90001e13dc3&branch=ci&build=latest)](https://dashboard.buddybuild.com/apps/58efe5b662a5f90001e13dc3/build/latest?branch=ci)
+[![CircleCI](https://circleci.com/gh/sksw/tdd-objc-barebone/tree/ci.svg?style=svg)](https://circleci.com/gh/sksw/tdd-objc-barebone/tree/ci)
+
 The aim of this tutorial is to **(1)** provide a barebone Objective-C TDD environment for developers to play around with, and **(2)** introduce developers to [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) style testing on iOS.
 
 If you're brand new to TDD or doing it from a BDD perspective, then you're in the right place.  Follow the setup instructions below and work through the provided BDD exercise to learn the basics!
